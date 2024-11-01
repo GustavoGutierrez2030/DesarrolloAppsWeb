@@ -1,0 +1,49 @@
+/* Estilos básicos para el diseño de la página */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Estilos del menú lateral */
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background-color: #555;
+}
+
+/* Estilos del contenido principal */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+#tituloUnidad {
+    font-size: 24px;
+    color: #333;
+}
